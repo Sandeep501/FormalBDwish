@@ -24,7 +24,14 @@ body, html{
 	font-weight: 700;
 	overflow: hidden;
 }
-
+.right {
+	position: absolute;
+	right: 0px;
+	height: 300px;
+	width: 300px;
+	color: #d8d0be;
+	padding: 10px;
+  }
 .first--slide::before{
 	content:"";
 	position: absolute;
